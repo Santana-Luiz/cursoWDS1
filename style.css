@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 0 20px 0 20px;
+    background-color: rgb(3, 108, 212);
+}
+
+header h1{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    width: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+#ciencias img{
+    width: 145px;
+}
+
+footer{
+    display: flex;
+    align-items:end;
+    width: auto;
+    height: 50px;
+    background-color: rgb(3, 108, 212);
+}
+
+footer p{
+    font-size: larger;
+    font-style: italic;
+    color: white;
+}
