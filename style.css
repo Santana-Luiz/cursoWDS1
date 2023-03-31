@@ -7,26 +7,57 @@ body{
 header{
     display: flex;
     align-items: center;
+    justify-content:space-between;
+    height: 90px;
     width: auto;
     margin: 0 20px 0 20px;
     background-color: rgb(3, 108, 212);
 }
 
+header img{
+    height: 90px;
+}
+
 header h1{
     color: white;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
 }
 
 main{
     display: flex;
     flex-direction: row;
+    margin: 0 25px 0 25px;
+    height: 100%;
 }
 
 section{
     width: auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+article{
+    padding: 0 15px 15px 0;
+    margin-bottom: 20px;
+    height: 180px;
+    overflow-y: scroll;
+    border-bottom: solid 1px;
 }
 
 p{
     text-align: justify;
+}
+
+#ciencias{
+    display: none;
+    padding-left: 20px;
 }
 
 #ciencias img{
@@ -35,14 +66,16 @@ p{
 
 footer{
     display: flex;
-    align-items:end;
+    align-items:center;
     width: auto;
-    height: 50px;
+    height: 35px;
     background-color: rgb(3, 108, 212);
+    margin: 0 20px 0 20px;
 }
 
 footer p{
-    font-size: larger;
+    padding-left: 10px;
+    font-size: 1em;
     font-style: italic;
     color: white;
 }
