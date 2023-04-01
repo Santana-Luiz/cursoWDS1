@@ -40,7 +40,32 @@ nav a{
     width: 100%;
 }
 
+.hidden-bsb{
+    display: none;
+    flex-direction: row;
+}
+
+.hidden-ciencias{
+    display: none;
+    flex-direction: row;
+}
+
+.hidden-futebol{
+    display: none;
+    flex-direction: row;
+}
+
 .noticias-bsb{
+    display: flex;
+    flex-direction: row;
+}
+
+.noticias-ciencias{
+    display: flex;
+    flex-direction: row;
+}
+
+.noticias-futebol{
     display: flex;
     flex-direction: row;
 }
@@ -53,29 +78,20 @@ section{
 }
 
 section img{
-    max-width: 50%;
+    max-width: 43%;
 }
 
 article{
     flex-direction: row;
     padding: 0 15px 15px 0;
     margin-bottom: 20px;
-    /*height: 170px;*/
+    height: 140px;
     overflow-y: scroll;
     border-bottom: solid 1px;
 }
 
 p{
     text-align: justify;
-}
-
-#ciencias{
-    display:none;
-    padding-left: 20px;
-}
-
-#ciencias img{
-    width: 145px;
 }
 
 footer{
