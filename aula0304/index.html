@@ -10,15 +10,16 @@
 <body>
     <main class="container">
         <h1>AllTech Educa</h1>
-        <form class="form" action="#">
+        <form class="form" action="#" onsubmit="return validaLogin()">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" size="30" required>
+            <input type="email" id="email" data-email="santanalcs@hotmail.com" name="email" size="30" required>
             <label for="password">Senha</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" data-password="123458" name="password" required>
             <input type="submit" value="Entrar">
         </form>
         <p>Não tem uma conta?<a href="sigin.htm"> crie uma agora</a></p>
     </main>
     
 </body>
+    <script src="script.js"></script>
 </html>
