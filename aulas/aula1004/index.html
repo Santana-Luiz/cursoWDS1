@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <title>Aula JS</title>
+</head>
+<body>
+
+    <p id="p1">Hello World!</p>
+    <p id="p2">Olá Mundo!</p>
+    <p id="tP">Trocar Parágrafos</p>
+
+    
+</body>
+<script>
+
+    let p1 = document.getElementById('p1');
+    let p2 = document.getElementById('p2');
+    let tP = document.getElementById('tP');
+
+   tP.addEventListener('click', ()=>{
+        let texto1 = p1.innerText;
+        let texto2 = p2.innerText;
+    
+        p1.innerText = texto2;
+        p2.innerText = texto1;
+
+    });
+    
+   // p2.addEventListener('click', ()=>{
+        
+   // }); 
+   
+</script>
+</html>
